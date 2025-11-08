@@ -1,50 +1,48 @@
-# Welcome to your Expo app 👋
+# Analytics UI - A Dynamic Chart Component for Expo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A sleek, interactive, and themeable bar chart component built with Expo and React Native. This project serves as a focused exploration of data visualization in a modern React Native environment, featuring a clean, refactored, and component-based architecture.
 
-## Get started
+<p align="center">
+  <img src="https://github.com/z-Pearlina/BarData-app/blob/main/assets/images/photo_2025-11-08_18-06-26.jpg" width="150" />
+  <img src="https://github.com/z-Pearlina/BarData-app/blob/main/assets/images/photo_2025-11-08_18-06-29.jpg" width="150" />
+</p>
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Key Features
 
-2. Start the app
+-   **Interactive Chart:** Press on individual bars to highlight them and display their specific value.
+-   **Dynamic Data:** The chart generates and displays data for any given month and year.
+-   **Month-by-Month Navigation:** Easily navigate between different months to see historical data.
+-   **Live Theme Selector:** Change the entire component's color scheme on the fly with a smooth, animated selector.
+-   **Data Summary Cards:** At-a-glance cards that display the Average, Total, and Peak values for the selected month.
+-   **Clean Architecture:** The main component is broken down into smaller, reusable sub-components (`StatsCard`, `MonthNavigator`, etc.) for better maintainability and scalability.
+-   **Custom UI Components:** Built with a custom, reusable `Button` and `Text` component library, demonstrating a design system-oriented approach.
 
-   ```bash
-   npx expo start
-   ```
+## 🚀 Tech Stack
 
-In the output, you'll find options to open the app in a
+-   **Framework:** React Native (Expo)
+-   **Charting Library:** `react-native-gifted-charts`
+-   **Navigation:** Expo Router
+-   **Styling:** StyleSheet, Expo Linear Gradient
+-   **UI:** Custom, reusable components built from scratch.
+-   **Fonts & Icons:** Expo Fonts, Expo Symbols
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🎯 Project Goals
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+This project was born out of a challenge faced in a larger application where charting libraries caused dependency conflicts. The goal was to isolate the problem of data visualization and solve it in a clean, controlled environment.
 
-## Get a fresh project
+This project demonstrates:
+1.  Proper installation and implementation of a complex data visualization library.
+2.  Strong skills in refactoring a large component into smaller, manageable pieces.
+3.  The ability to create a polished, interactive, and visually appealing user interface.
 
-When you're ready, run:
+## 🛠️ Core Libraries
 
-```bash
-npm run reset-project
-```
+This project was built using a powerful set of libraries to achieve its look and functionality:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+-   **`react-native-gifted-charts`**: For creating beautiful and interactive bar charts.
+-   **`expo-linear-gradient`**: Used to create the smooth, elegant background gradients.
+-   **`react-native-svg`**: A required dependency for rendering vector graphics in charts.
+-   **Expo Router**: For file-based navigation.
+-   **Expo Symbols**: For using Apple's SF Symbols as icons.
