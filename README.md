@@ -19,15 +19,6 @@ A sleek, interactive, and themeable bar chart component built with Expo and Reac
 -   **Clean Architecture:** The main component is broken down into smaller, reusable sub-components (`StatsCard`, `MonthNavigator`, etc.) for better maintainability and scalability.
 -   **Custom UI Components:** Built with a custom, reusable `Button` and `Text` component library, demonstrating a design system-oriented approach.
 
-## 🚀 Tech Stack
-
--   **Framework:** React Native (Expo)
--   **Charting Library:** `react-native-gifted-charts`
--   **Navigation:** Expo Router
--   **Styling:** StyleSheet, Expo Linear Gradient
--   **UI:** Custom, reusable components built from scratch.
--   **Fonts & Icons:** Expo Fonts, Expo Symbols
-
 ## 🎯 Project Goals
 
 This project was born out of a challenge faced in a larger application where charting libraries caused dependency conflicts. The goal was to isolate the problem of data visualization and solve it in a clean, controlled environment.
