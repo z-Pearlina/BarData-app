@@ -9,16 +9,6 @@ A sleek, interactive, and themeable bar chart component built with Expo and Reac
 
 ---
 
-## ✨ Key Features
-
--   **Interactive Chart:** Press on individual bars to highlight them and display their specific value.
--   **Dynamic Data:** The chart generates and displays data for any given month and year.
--   **Month-by-Month Navigation:** Easily navigate between different months to see historical data.
--   **Live Theme Selector:** Change the entire component's color scheme on the fly with a smooth, animated selector.
--   **Data Summary Cards:** At-a-glance cards that display the Average, Total, and Peak values for the selected month.
--   **Clean Architecture:** The main component is broken down into smaller, reusable sub-components (`StatsCard`, `MonthNavigator`, etc.) for better maintainability and scalability.
--   **Custom UI Components:** Built with a custom, reusable `Button` and `Text` component library, demonstrating a design system-oriented approach.
-
 ## 🎯 Project Goals
 
 This project was born out of a challenge faced in a larger application where charting libraries caused dependency conflicts. The goal was to isolate the problem of data visualization and solve it in a clean, controlled environment.
